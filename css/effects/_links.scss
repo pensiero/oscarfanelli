@@ -1,0 +1,162 @@
+@media (min-width: #{$tablet-width}) {
+
+  .linkful a {
+    display: inline-block;
+    padding: 8px 5px;
+    bottom: -12px;
+    margin: 0 -3px;
+    text-shadow: none;
+    @include transition(color, 0.3s, ease-out);
+    position: relative;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    > * {
+      @include transition(all, 0.3s, ease-out);
+    }
+    .s1 {
+      display: inline-block;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .s2 {
+      text-align: center;
+      left: 0;
+      top: -100%;
+      width: 100%;
+      position: absolute;
+      &.with-image {
+        line-height: 0;
+      }
+    }
+    &:hover, &:active {
+      .s1 {
+        @include transform(translateY(300%));
+      }
+      .s2 {
+        top: 50%;
+        @include transform(translate(0, -50%));
+      }
+    }
+  }
+
+  .linkful.black a, .linkful a.black {
+    &:before, &:after {
+      background: #000;
+    }
+    &:hover, &:focus {
+      color: #000;
+    }
+  }
+
+  .linkful.dark-blue a, .linkful a.dark-blue {
+    &:before, &:after {
+      background: #1d4058;
+    }
+    &:hover, &:focus {
+      color: #1d4058;
+    }
+  }
+
+  .linkful.yellow a, .linkful a.yellow {
+    &:before, &:after {
+      background: #f8f398;
+    }
+    &:hover, &:focus {
+      color: #f8f398;
+    }
+  }
+
+  .linkful.sand a, .linkful a.sand {
+    &:before, &:after {
+      background: #e3cc88;
+    }
+    &:hover, &:focus {
+      color: #e3cc88;
+    }
+  }
+
+  .linkful.red a, .linkful a.red {
+    &:before, &:after {
+      background: #C00;
+    }
+    &:hover, &:focus {
+      color: #C00;
+    }
+  }
+
+  .linkful.green a, .linkful a.green {
+    &:before, &:after {
+      background: #00a62d;
+    }
+    &:hover, &:focus {
+      color: #00a62d;
+    }
+  }
+
+  .linkful.blue a, .linkful a.blue {
+    &:before, &:after {
+      background: #345aa6;
+    }
+    &:hover, &:focus {
+      color: #345aa6;
+    }
+  }
+
+  .linkful a:before,
+  .linkful a:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  .linkful a:before {
+    top: 0;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  .linkful a:after {
+    bottom: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  .linkful a:hover::before,
+  .linkful a:focus::before,
+  .linkful a:hover::after,
+  .linkful a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+}
+
+@include tablet {
+
+  .linkful a {
+    .s2 {
+      vertical-align: middle;
+      margin-left: 3px;
+      &.with-image, &.with-text {
+        display: none;
+      }
+    }
+  }
+
+}

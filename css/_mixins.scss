@@ -1,0 +1,43 @@
+@mixin transition($property, $duration, $function) {
+  -webkit-transition: $property $duration $function;
+  -moz-transition:    $property $duration $function;
+  -ms-transition:     $property $duration $function;
+  -o-transition:      $property $duration $function;
+  transition:         $property $duration $function;
+}
+
+@mixin animation($name, $duration, $function) {
+  -webkit-animation: $name $duration;
+  animation: $name $duration;
+  -webkit-animation-timing-function: $function;
+  animation-timing-function: $function;
+}
+
+@mixin transform($value) {
+  -webkit-transform: $value;
+  -moz-transform:    $value;
+  -ms-transform:     $value;
+  -o-transform:      $value;
+  transform:         $value;
+}
+
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: -o-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
