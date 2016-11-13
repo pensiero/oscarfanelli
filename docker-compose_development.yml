@@ -11,6 +11,10 @@ services:
       - ./config/docker/certs:/etc/nginx/certs
 
   web:
-    image: pensiero/oscarfanelli
+    build:
+      context: .
+      dockerfile: Dockerfile_development
+    volumes:
+      - ".:/var/www"
     environment:
-      - VIRTUAL_HOST=*.oscarfanelli.com
+      - VIRTUAL_HOST=*.oscarfanelli.dev
