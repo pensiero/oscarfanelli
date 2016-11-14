@@ -5,7 +5,6 @@
 .idea
 .project
 .settings
-composer.phar
 log/
 node_modules/
 vendor/*
