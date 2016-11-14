@@ -203,8 +203,8 @@
     <script src="/js/ie7-icons.js"></script>
     <![endif]-->
 
-    <script src="/js/jquery-1.11.3.min.js"></script>
-    <script src="/js/classie.js"></script>
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/vendor/classie/classie.js"></script>
     <script src="/js/js.js"></script>
 </body>
 </html>
