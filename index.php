@@ -32,7 +32,7 @@
     <link href="https://plus.google.com/+OscarFanelli" rel="publisher">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href="/css/css.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/css/css.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="http://www.oscarfanelli.com/" rel="canonical">
     <script src="js/modernizr.custom.min.js"></script>
 </head>
