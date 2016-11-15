@@ -34,7 +34,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="/css/css.css" media="screen" rel="stylesheet" type="text/css">
     <link href="http://www.oscarfanelli.com/" rel="canonical">
-    <script src="js/modernizr.custom.js"></script>
+    <script src="js/modernizr.custom.min.js"></script>
 </head>
 <body>
 
@@ -200,11 +200,11 @@
     </footer>
 
     <!--[if IE]>
-    <script src="/js/ie7-icons.js"></script>
+    <script src="/js/ie7-icons.min.js"></script>
     <![endif]-->
 
     <script src="/vendor/jquery/dist/jquery.min.js"></script>
     <script src="/vendor/classie/classie.js"></script>
-    <script src="/js/js.js"></script>
+    <script src="/js/js.min.js"></script>
 </body>
 </html>

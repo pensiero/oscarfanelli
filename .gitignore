@@ -5,7 +5,7 @@
 .idea
 .project
 .settings
-*.min.min.*
+*.min.*
 log/
 node_modules/
 vendor/*
