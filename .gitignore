@@ -6,7 +6,7 @@
 .project
 .settings
 *.min.*
-*.map.*
+*.css.map
 log/
 node_modules/
 vendor/*
