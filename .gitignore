@@ -5,6 +5,8 @@
 .idea
 .project
 .settings
+*.min.*
+*.map.*
 log/
 node_modules/
 vendor/*

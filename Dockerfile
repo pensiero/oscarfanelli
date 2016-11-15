@@ -14,10 +14,10 @@ ENV PROJECT_PATH=/var/www \
 
 # Utilities, Apache, PHP, and supplementary programs
 RUN apt-get update -q && apt-get upgrade -yqq && apt-get install -yqq --force-yes \
+    curl \
     git \
     npm \
     wget \
-    curl \
     apache2 \
     libapache2-mod-php7.0 \
     php7.0
@@ -53,9 +53,24 @@ EXPOSE 80
 # VirtualHost
 COPY config/docker/apache-virtualhost.conf /etc/apache2/sites-available/000-default.conf
 
-# Copy site into place
-COPY . $PROJECT_PATH
+# Move to project path directory
 WORKDIR $PROJECT_PATH
 
+# NPM install
+COPY package.json ./package.json
+RUN npm config set loglevel warn
+RUN npm install --quiet --production
+
+# Bower install
+COPY bower.json ./bower.json
+COPY .bowerrc ./.bowerrc
+RUN $(npm bin -q)/bower install --allow-root --quiet
+
+# Copy site into place
+COPY . $PROJECT_PATH
+
+# Generate assets
+RUN bash ./config/docker/watchers/run.sh
+
 # Remove pre-existent apache pid and start apache
-CMD rm -f $APACHE_PID_FILE && /usr/sbin/apache2ctl -D FOREGROUND
+CMD rm -f $APACHE_PID_FILE && ./config/docker/start/production.sh

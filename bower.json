@@ -1,0 +1,10 @@
+{
+  "name": "oscarfanelli",
+  "dependencies": {
+    "jquery": "3.1.*",
+    "classie": "1.0.*"
+  },
+  "resolutions": {
+    "jquery": "2.2.4"
+  }
+}

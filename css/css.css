@@ -4,48 +4,56 @@
   src: url("/fonts/oscar/oscar.eot?#iefix") format("embedded-opentype"), url("/fonts/oscar/oscar.woff2") format("woff2"), url("/fonts/oscar/oscar.woff") format("woff"), url("/fonts/oscar/oscar.ttf") format("truetype"), url("/fonts/oscar/oscar.svg#uala") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'maison-neue-bold';
   src: url("/fonts/maison-neue/maison-neue_bold.eot");
   src: url("/fonts/maison-neue/maison-neue_bold.eot?#iefix") format("embedded-opentype"), url("/fonts/oscar/oscar.woff2") format("woff2"), url("/fonts/maison-neue/maison-neue_bold.woff") format("woff"), url("/fonts/maison-neue/maison-neue_bold.ttf") format("truetype"), url("/fonts/maison-neue/maison-neue_bold.svg#uala") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'brandon-grotesque-regular';
   src: url("/fonts/brandon-grotesque/brandon-grotesque_regular.eot");
   src: url("/fonts/brandon-grotesque/brandon-grotesque_regular.eot?#iefix") format("embedded-opentype"), url("/fonts/brandon-grotesque/brandon-grotesque_regular.woff2") format("woff2"), url("/fonts/brandon-grotesque/brandon-grotesque_regular.woff") format("woff"), url("/fonts/brandon-grotesque/brandon-grotesque_regular.ttf") format("truetype"), url("/fonts/brandon-grotesque/brandon-grotesque_regular.svg#brandongrotesque-regularbook") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'brandon-grotesque-medium';
   src: url("/fonts/brandon-grotesque/brandon-grotesque_medium.eot");
   src: url("/fonts/brandon-grotesque/brandon-grotesque_medium.eot?#iefix") format("embedded-opentype"), url("/fonts/brandon-grotesque/brandon-grotesque_medium.woff2") format("woff2"), url("/fonts/brandon-grotesque/brandon-grotesque_medium.woff") format("woff"), url("/fonts/brandon-grotesque/brandon-grotesque_medium.ttf") format("truetype"), url("/fonts/brandon-grotesque/brandon-grotesque_medium.svg#brandongrotesque-mediumbook") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'futura-lt-book';
   src: url("/fonts/futura-lt/futuralt-book.eot");
   src: url("/fonts/futura-lt/futuralt-book.eot?#iefix") format("embedded-opentype"), url("/fonts/futura-lt/futuralt-book.woff2") format("woff2"), url("/fonts/futura-lt/futuralt-book.woff") format("woff"), url("/fonts/futura-lt/futuralt-book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'futura-lt-heavy';
   src: url("/fonts/futura-lt/futuralt-heavy.eot");
   src: url("/fonts/futura-lt/futuralt-heavy.eot?#iefix") format("embedded-opentype"), url("/fonts/futura-lt/futuralt-heavy.woff2") format("woff2"), url("/fonts/futura-lt/futuralt-heavy.woff") format("woff"), url("/fonts/futura-lt/futuralt-heavy.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'futura-lt-light';
   src: url("/fonts/futura-lt/futuralt-light.eot");
   src: url("/fonts/futura-lt/futuralt-light.eot?#iefix") format("embedded-opentype"), url("/fonts/futura-lt/futuralt-light.woff2") format("woff2"), url("/fonts/futura-lt/futuralt-light.woff") format("woff"), url("/fonts/futura-lt/futuralt-light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'futura-lt-regular';
   src: url("/fonts/futura-lt/futuralt.eot");
   src: url("/fonts/futura-lt/futuralt.eot?#iefix") format("embedded-opentype"), url("/fonts/futura-lt/futuralt.woff2") format("woff2"), url("/fonts/futura-lt/futuralt.woff") format("woff"), url("/fonts/futura-lt/futuralt.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 .icon {
   font-family: 'oscar';
   speak: none;
@@ -575,6 +583,7 @@ th {
     opacity: 0;
     -webkit-transform: rotate3d(0, 0, 1, -90deg);
     transform: rotate3d(0, 0, 1, -90deg); } }
+
 @keyframes anim-effect-oscar-1 {
   0% {
     opacity: 1; }
@@ -582,6 +591,7 @@ th {
     opacity: 0;
     -webkit-transform: rotate3d(0, 0, 1, -90deg);
     transform: rotate3d(0, 0, 1, -90deg); } }
+
 @-webkit-keyframes anim-effect-oscar-2 {
   0% {
     opacity: 1; }
@@ -589,6 +599,7 @@ th {
     opacity: 0;
     -webkit-transform: rotate3d(0, 0, 1, 90deg);
     transform: rotate3d(0, 0, 1, 90deg); } }
+
 @keyframes anim-effect-oscar-2 {
   0% {
     opacity: 1; }
@@ -596,6 +607,7 @@ th {
     opacity: 0;
     -webkit-transform: rotate3d(0, 0, 1, 90deg);
     transform: rotate3d(0, 0, 1, 90deg); } }
+
 @-webkit-keyframes anim-effect-oscar-3 {
   0% {
     -webkit-transform: scale3d(0.4, 0.4, 1);
@@ -608,6 +620,7 @@ th {
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
+
 @keyframes anim-effect-oscar-3 {
   0% {
     -webkit-transform: scale3d(0.4, 0.4, 1);
@@ -620,6 +633,7 @@ th {
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
+
 @-webkit-keyframes anim-effect-oscar-4 {
   0% {
     opacity: 1;
@@ -633,6 +647,7 @@ th {
     opacity: 0;
     -webkit-transform: translate3d(0, -60px, 0) scale3d(1, 1, 1);
     transform: translate3d(0, -60px, 0) scale3d(1, 1, 1); } }
+
 @keyframes anim-effect-oscar-4 {
   0% {
     opacity: 1;
@@ -646,6 +661,7 @@ th {
     opacity: 0;
     -webkit-transform: translate3d(0, -60px, 0) scale3d(1, 1, 1);
     transform: translate3d(0, -60px, 0) scale3d(1, 1, 1); } }
+
 @media (min-width: 768px) {
   .linkful a {
     display: inline-block;
@@ -695,42 +711,34 @@ th {
       -ms-transform: translate(0, -50%);
       -o-transform: translate(0, -50%);
       transform: translate(0, -50%); }
-
   .linkful.black a:before, .linkful.black a:after, .linkful a.black:before, .linkful a.black:after {
     background: #000; }
   .linkful.black a:hover, .linkful.black a:focus, .linkful a.black:hover, .linkful a.black:focus {
     color: #000; }
-
   .linkful.dark-blue a:before, .linkful.dark-blue a:after, .linkful a.dark-blue:before, .linkful a.dark-blue:after {
     background: #1d4058; }
   .linkful.dark-blue a:hover, .linkful.dark-blue a:focus, .linkful a.dark-blue:hover, .linkful a.dark-blue:focus {
     color: #1d4058; }
-
   .linkful.yellow a:before, .linkful.yellow a:after, .linkful a.yellow:before, .linkful a.yellow:after {
     background: #f8f398; }
   .linkful.yellow a:hover, .linkful.yellow a:focus, .linkful a.yellow:hover, .linkful a.yellow:focus {
     color: #f8f398; }
-
   .linkful.sand a:before, .linkful.sand a:after, .linkful a.sand:before, .linkful a.sand:after {
     background: #e3cc88; }
   .linkful.sand a:hover, .linkful.sand a:focus, .linkful a.sand:hover, .linkful a.sand:focus {
     color: #e3cc88; }
-
   .linkful.red a:before, .linkful.red a:after, .linkful a.red:before, .linkful a.red:after {
     background: #C00; }
   .linkful.red a:hover, .linkful.red a:focus, .linkful a.red:hover, .linkful a.red:focus {
     color: #C00; }
-
   .linkful.green a:before, .linkful.green a:after, .linkful a.green:before, .linkful a.green:after {
     background: #00a62d; }
   .linkful.green a:hover, .linkful.green a:focus, .linkful a.green:hover, .linkful a.green:focus {
     color: #00a62d; }
-
   .linkful.blue a:before, .linkful.blue a:after, .linkful a.blue:before, .linkful a.blue:after {
     background: #345aa6; }
   .linkful.blue a:hover, .linkful.blue a:focus, .linkful a.blue:hover, .linkful a.blue:focus {
     color: #345aa6; }
-
   .linkful a:before,
   .linkful a:after {
     position: absolute;
@@ -745,19 +753,16 @@ th {
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     transform: translateY(-10px); }
-
   .linkful a:before {
     top: 0;
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     transform: translateY(-10px); }
-
   .linkful a:after {
     bottom: 0;
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
     transform: translateY(10px); }
-
   .linkful a:hover::before,
   .linkful a:focus::before,
   .linkful a:hover::after,
@@ -766,12 +771,14 @@ th {
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     transform: translateY(0px); } }
+
 @media (max-width: 767px) {
   .linkful a .s2 {
     vertical-align: middle;
     margin-left: 3px; }
     .linkful a .s2.with-image, .linkful a .s2.with-text {
       display: none; } }
+
 html, body {
   color: #27282d;
   font: 20px "futura-lt-book", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1039,16 +1046,12 @@ footer {
 @media (max-width: 767px) {
   h1 {
     font-size: 10vw; }
-
   h2 {
     font-size: 4vw; }
-
   #logo img {
     max-width: 40vw; }
-
   p {
     font-size: 5vw; }
-
   .block.block-double > h3 {
     margin-bottom: 0; }
   .block.block-double > div {
@@ -1070,39 +1073,32 @@ footer {
         margin-bottom: 10px; }
       .block.block-double > div > div:last-child {
         padding-top: 0; }
-
   .cloud > div span {
     font-size: 6vw; }
-
   .projects a {
     font-size: 8vw; } }
+
 @media (max-width: 639px) {
   h1 {
     font-size: 11vw; }
-
   h2 {
     font-size: 5vw; }
-
   #logo img {
     max-width: 50vw; }
-
   .block.block-double > div > div {
     font-size: 6vw; }
   .block h3 {
     font-size: 30px; }
-
   p {
     font-size: 7vw; }
-
   .cloud > div span {
     font-size: 9vw; } }
+
 @media (max-width: 479px) {
   h1 {
     font-size: 12vw; }
-
   h2 {
     font-size: 5vw; }
-
   #logo img {
     max-width: 60vw; } }
 

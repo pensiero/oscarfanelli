@@ -1,0 +1,20 @@
+{
+  "name": "oscarfanelli",
+  "version": "1.0.0",
+  "description": "Oscar's Portfolio",
+  "author": "Oscar Fanelli <oscar.fanelli@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pensiero/oscarfanelli"
+  },
+  "bugs": {
+    "url": "https://github.com/pensiero/oscarfanelli/issues"
+  },
+  "dependencies": {
+    "bower": "1.*",
+    "node-sass": "3.*",
+    "uglifyjs": "2.*",
+    "uglifycss": "0.*"
+  },
+  "license": "MIT"
+}
