@@ -1,8 +1,6 @@
 #!/bin/bash
 
-for FILE in js/*
+for DIR in $(dirname $0)/adapters/*
 do
-  if [[ ${FILE##*.} = "js" ]] && [[ ${FILE#*.} != *"min.js"* ]]; then
-    $(npm bin -q)/uglifyjs $FILE -m -c -o ${FILE%.*}.min.js
-  fi
+  bash $DIR/run.sh
 done
