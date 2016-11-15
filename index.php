@@ -109,29 +109,7 @@
         </div>
     </div>
 
-    <div class="block block-spaced projects">
-        <h3>Projects</h3>
-        <a class="tomshw" href="http://www.tomshw.it" target="_blank">
-            <span>Tom's Hardware</span>
-        </a>
-        <a class="uala" href="https://www.uala.it" target="_blank">
-            <span>Uala</span>
-        </a>
-        <a class="gamempire" href="http://www.gamempire.it" target="_blank">
-            <span>Gamempire</span>
-        </a>
-        <a class="copernicum" href="http://www.copernicum.it" target="_blank">
-            <span>Copernicum</span>
-        </a>
-        <a class="truemetal" href="http://www.truemetal.it" target="_blank">
-            <span>TrueMetal</span>
-        </a>
-        <a class="other" href="mailto:oscar.fanelli@gmail.com" target="_blank">
-            <span>... more</span>
-        </a>
-    </div>
-
-    <div class="block block-spaced block-double">
+    <div class="block block-spaced block-double life">
         <h3>Live as Bicentennial Man</h3>
         <div>
             <div>mar 2015 -> today</div>
@@ -154,7 +132,7 @@
             <div>Degree in <em>Ingegneria dell'Informazione e Organizzazione di Impresa</em> at <a href="http://www.unitn.it/" target="_blank">Trento</a></div>
         </div>
         <div>
-            <div>apr 2007 -> today</div>
+            <div>apr 2007 -> 2015</div>
             <div>Director and Developer at <a href="http://www.gamempire.it" target="_blank">Gamempire</a></div>
         </div>
         <div>

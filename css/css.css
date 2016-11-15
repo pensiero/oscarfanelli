@@ -841,7 +841,7 @@ html, body {
 a:link, a:visited {
   color: #27282d;
   text-decoration: none; }
-  a:link:hover, a:visited:hover {
+  a:link:hover, a:link:active, a:link:focus, a:visited:hover, a:visited:active, a:visited:focus {
     font-weight: bold; }
 
 #logo img {
@@ -924,66 +924,11 @@ ul {
     .cloud > div span:nth-child(even) {
       font-weight: bold; }
 
-.projects a {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-  padding: 20px 0;
-  font-size: 60px;
-  color: #FFF;
-  text-transform: uppercase;
-  font-family: maison-neue-bold, sans-serif;
-  font-weight: bold;
-  position: relative; }
-  .projects a:after {
-    content: '';
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 0;
-    background-size: cover;
-    background-position: top center;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: opacity 0.3s ease-out;
-    -moz-transition: opacity 0.3s ease-out;
-    -ms-transition: opacity 0.3s ease-out;
-    -o-transition: opacity 0.3s ease-out;
-    transition: opacity 0.3s ease-out; }
-  .projects a:hover:after {
-    opacity: 0.2; }
-  .projects a.tomshw {
-    background-color: #d92428; }
-    .projects a.tomshw:after {
-      background-image: url("/images/sites/tomshw/cover.jpg"); }
-  .projects a.uala {
-    background-color: #f8f398;
-    color: #27282d; }
-    .projects a.uala:after {
-      background-image: url("/images/sites/uala/cover.jpg"); }
-  .projects a.gamempire {
-    background-color: #3974d9; }
-    .projects a.gamempire:after {
-      background-image: url("/images/sites/gamempire/cover.jpg"); }
-  .projects a.copernicum {
-    background-color: #e3cc88;
-    color: #27282d; }
-    .projects a.copernicum:after {
-      background-image: url("/images/sites/copernicum/cover.jpg"); }
-  .projects a.truemetal {
-    background-color: #1d4058; }
-    .projects a.truemetal:after {
-      background-image: url("/images/sites/truemetal/cover.jpg"); }
-  .projects a.other {
-    background-color: #f9f9f9;
-    color: #27282d; }
-  .projects a span {
-    z-index: 2; }
+.life a:link, .life a:visited {
+  text-decoration: underline; }
+  .life a:link:hover, .life a:link:active, .life a:link:focus, .life a:visited:hover, .life a:visited:active, .life a:visited:focus {
+    text-decoration: none !important;
+    font-weight: normal; }
 
 h1 {
   margin: 0;
