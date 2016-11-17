@@ -110,51 +110,49 @@ ul {
     }
   }
   &.block-spaced {
-    margin-bottom: 150px;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+  }
+  &.block-spaced-half {
+    height: 100vh;
   }
   &.block-inverse {
     background-color: $textColor;
     color: #FFF;
   }
   &.block-double {
+    background-color: $textColor;
+    padding: 100vh 0;
     > div {
-      width: 100%;
       display: flex;
-      padding: 0;
       align-items: center;
-      height: 170px;
+      flex-wrap: wrap;
+      padding: 0;
       > div {
-        font-size: 26px;
-        width: 50%;
-        padding: 30px;
-        height: 100%;
-        &:first-child {
-          background-color: $textColor;
+        width: 100%;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+        > div {
+          font-size: 26px;
+          width: 350px;
+          padding: 30px;
+          height: 100%;
           color: #FFF;
-          text-align: right;
+          &:first-child {
+            text-align: right;
+          }
         }
       }
-    }
-  }
-  > h3 {
-    font-family: $titleFont;
-    font-size: 36px;
-    text-align: center;
-    margin: 0 0 50px;
-    &:before {
-      display: block;
-      content: '';
-      @include border-radius(100%);
-      width: 10px;
-      height: 10px;
-      background-color: $textColor;
-      text-align: center;
-      margin: 0 auto 10px;
     }
   }
 }
 
 .cloud {
+  margin-top: -50vh;
   > div {
     padding-top: 0;
     word-break: break-all;
@@ -173,6 +171,7 @@ ul {
   a {
     &:link, &:visited {
       text-decoration: underline;
+      color: #FFF;
       &:hover, &:active, &:focus {
         text-decoration: none !important;
         font-weight: normal;
@@ -199,7 +198,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 30px;
   > div {
     &:first-child {
       height: 100%;
@@ -212,6 +210,7 @@ footer {
   height: 100vh;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-top: 100vh;
   > div {
     background-color: $lightColor;
     max-width: 350px;
@@ -220,13 +219,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  h3 {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 10px;
-    font-family: brandon-grotesque-bold, sans-serif;
-    margin: 0 0 50px;
   }
   ul {
     text-align: center;
@@ -270,34 +262,31 @@ footer {
   }
 
   p {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 
   .block {
     &.block-double {
-      > h3 {
-        margin-bottom: 0;
-      }
       > div {
-        flex-direction: column;
-        height: auto;
-        padding: 30px;
-        text-align: center;
         > div {
-          font-size: 4vw;
-          padding-left: 0;
-          padding-right: 0;
-          width: 100%;
-          max-width: 360px;
-          padding-bottom: 0;
-          &:first-child {
-            background-color: #FFF;
-            color: $greyColor;
-            text-align: center;
-            margin-bottom: 10px;
-          }
-          &:last-child {
-            padding-top: 0;
+          flex-direction: column;
+          height: auto;
+          padding: 30px;
+          text-align: center;
+          > div {
+            font-size: 6vw;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+            max-width: 360px;
+            padding-bottom: 0;
+            &:first-child {
+              text-align: center;
+              margin-bottom: 10px;
+            }
+            &:last-child {
+              padding-top: 0;
+            }
           }
         }
       }
@@ -309,12 +298,6 @@ footer {
       span {
         font-size: 6vw;
       }
-    }
-  }
-
-  .projects {
-    a {
-      font-size: 8vw;
     }
   }
 
@@ -339,12 +322,11 @@ footer {
     &.block-double {
       > div {
         > div {
-          font-size: 6vw;
+          > div {
+            font-size: 6vw;
+          }
         }
       }
-    }
-    h3 {
-      font-size: 30px;
     }
   }
 
@@ -355,7 +337,7 @@ footer {
   .cloud {
     > div {
       span {
-        font-size: 9vw;
+        font-size: 7vw;
       }
     }
   }
@@ -376,11 +358,5 @@ footer {
       max-width: 60vw;
     }
   }
-
-}
-
-@media (max-width: 290px) {
-
-
 
 }
