@@ -123,7 +123,7 @@ ul {
   }
   &.block-double {
     background-color: $textColor;
-    padding: 100vh 0;
+    padding: 50vh 0;
     > div {
       display: flex;
       align-items: center;
@@ -153,7 +153,6 @@ ul {
 
 .cloud {
   > div {
-    padding-top: 0;
     word-break: break-all;
     word-wrap: break-word;
     text-align: justify;
@@ -240,10 +239,9 @@ header {
 }
 
 
-footer {
+footer.block {
   height: 100vh;
   padding: $boxPadding;
-  margin-top: 100vh;
   > div {
     width: $boxWidth - ($boxPadding * 2);
     background-color: $lightColor;
