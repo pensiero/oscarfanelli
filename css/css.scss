@@ -198,6 +198,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
   > div {
     &:first-child {
       height: 100%;
@@ -205,7 +206,28 @@ header {
       align-items: center;
     }
   }
+  #see-this-on-github {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    padding-left: 7px;
+    @include border-radius(24px);
+    &:hover, &:active, &:focus {
+      border-color: $textColor;
+      font-weight: normal;
+    }
+    svg {
+      margin-left: 5px;
+    }
+  }
 }
+
+
 footer {
   height: 100vh;
   padding-top: 30px;
@@ -213,7 +235,6 @@ footer {
   margin-top: 100vh;
   > div {
     background-color: $lightColor;
-    max-width: 350px;
     height: 100%;
     display: flex;
     align-items: center;
