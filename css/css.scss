@@ -6,6 +6,9 @@
 @import "effects/colorful";
 @import "effects/links";
 
+$boxWidth: 700px;
+$boxPadding: 30px;
+
 html, body {
   color: $textColor;
   font: $fontSize / 1 $mainFont;
@@ -102,20 +105,17 @@ ul {
   margin: 0 auto;
   width: 100%;
   > div {
-    width: 700px;
-    padding: 30px;
+    width: $boxWidth;
+    padding: $boxPadding;
     margin: 0 auto;
     @include tablet {
-      width: 100%;
+      width: 100% !important;
     }
   }
   &.block-spaced {
     height: 200vh;
     display: flex;
     align-items: center;
-  }
-  &.block-spaced-half {
-    height: 100vh;
   }
   &.block-inverse {
     background-color: $textColor;
@@ -139,7 +139,7 @@ ul {
         > div {
           font-size: 26px;
           width: 350px;
-          padding: 30px;
+          padding: $boxPadding;
           height: 100%;
           color: #FFF;
           &:first-child {
@@ -152,7 +152,6 @@ ul {
 }
 
 .cloud {
-  margin-top: -50vh;
   > div {
     padding-top: 0;
     word-break: break-all;
@@ -205,6 +204,10 @@ header {
       display: flex;
       align-items: center;
     }
+    &.block-inverse {
+      cursor: none;
+      @include avoid-select();
+    }
   }
   #see-this-on-github {
     position: absolute;
@@ -216,12 +219,21 @@ header {
     align-items: center;
     border: 1px solid transparent;
     padding-left: 7px;
+    padding-right: 29px;
+    height: 26px;
     @include border-radius(24px);
     &:hover, &:active, &:focus {
       border-color: $textColor;
       font-weight: normal;
+      svg {
+        @include transform(rotate(30deg));
+      }
     }
     svg {
+      position: absolute;
+      right: 0;
+      top: 0;
+      @include transition(transform, 0.2s, ease-out);
       margin-left: 5px;
     }
   }
@@ -230,10 +242,10 @@ header {
 
 footer {
   height: 100vh;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: $boxPadding;
   margin-top: 100vh;
   > div {
+    width: $boxWidth - ($boxPadding * 2);
     background-color: $lightColor;
     height: 100%;
     display: flex;
@@ -246,13 +258,13 @@ footer {
     li {
       font-size: 18px;
       font-family: brandon-grotesque-regular, sans-serif;
-      margin-bottom: 12px;
     }
   }
   a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 6px 0;
     span {
       margin: 0 3px;
     }
@@ -292,7 +304,7 @@ footer {
         > div {
           flex-direction: column;
           height: auto;
-          padding: 30px;
+          padding: $boxPadding;
           text-align: center;
           > div {
             font-size: 6vw;
@@ -331,6 +343,13 @@ footer {
   }
   h2 {
     font-size: 5vw;
+  }
+
+  header {
+    #see-this-on-github {
+      top: 30px;
+      right: 30px;
+    }
   }
 
   #logo {
@@ -374,10 +393,34 @@ footer {
     font-size: 5vw;
   }
 
+  header {
+    text-align: center;
+  }
+
   #logo {
     img {
       max-width: 60vw;
     }
+  }
+
+}
+
+@media (max-height: 520px) and (min-height: 481px) {
+
+  header {
+    padding-top: 30px;
+  }
+  #see-this-on-github {
+    top: 20px;
+    right: 20px;
+  }
+
+}
+
+@media (max-height: 480px) {
+
+  #see-this-on-github {
+    display: none;
   }
 
 }

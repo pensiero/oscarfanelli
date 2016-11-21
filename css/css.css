@@ -875,13 +875,11 @@ ul {
     margin: 0 auto; }
     @media (max-width: 767px) {
       .block > div {
-        width: 100%; } }
+        width: 100% !important; } }
   .block.block-spaced {
     height: 200vh;
     display: flex;
     align-items: center; }
-  .block.block-spaced-half {
-    height: 100vh; }
   .block.block-inverse {
     background-color: #27282d;
     color: #FFF; }
@@ -909,17 +907,15 @@ ul {
           .block.block-double > div > div > div:first-child {
             text-align: right; }
 
-.cloud {
-  margin-top: -50vh; }
-  .cloud > div {
-    padding-top: 0;
-    word-break: break-all;
-    word-wrap: break-word;
-    text-align: justify; }
-    .cloud > div span {
-      font-size: 40px; }
-      .cloud > div span:nth-child(even) {
-        font-weight: bold; }
+.cloud > div {
+  padding-top: 0;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: justify; }
+  .cloud > div span {
+    font-size: 40px; }
+    .cloud > div span:nth-child(even) {
+      font-weight: bold; }
 
 .life a:link, .life a:visited {
   text-decoration: underline;
@@ -950,6 +946,12 @@ header {
     height: 100%;
     display: flex;
     align-items: center; }
+  header > div.block-inverse {
+    cursor: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none; }
   header #see-this-on-github {
     position: absolute;
     top: 50px;
@@ -960,6 +962,8 @@ header {
     align-items: center;
     border: 1px solid transparent;
     padding-left: 7px;
+    padding-right: 29px;
+    height: 26px;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
@@ -967,15 +971,29 @@ header {
     header #see-this-on-github:hover, header #see-this-on-github:active, header #see-this-on-github:focus {
       border-color: #27282d;
       font-weight: normal; }
+      header #see-this-on-github:hover svg, header #see-this-on-github:active svg, header #see-this-on-github:focus svg {
+        -webkit-transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        transform: rotate(30deg); }
     header #see-this-on-github svg {
+      position: absolute;
+      right: 0;
+      top: 0;
+      -webkit-transition: transform 0.2s ease-out;
+      -moz-transition: transform 0.2s ease-out;
+      -ms-transition: transform 0.2s ease-out;
+      -o-transition: transform 0.2s ease-out;
+      transition: transform 0.2s ease-out;
       margin-left: 5px; }
 
 footer {
   height: 100vh;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   margin-top: 100vh; }
   footer > div {
+    width: 640px;
     background-color: #f9f9f9;
     height: 100%;
     display: flex;
@@ -986,12 +1004,12 @@ footer {
     text-align: center; }
     footer ul li {
       font-size: 18px;
-      font-family: brandon-grotesque-regular, sans-serif;
-      margin-bottom: 12px; }
+      font-family: brandon-grotesque-regular, sans-serif; }
   footer a {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding: 6px 0; }
     footer a span {
       margin: 0 3px; }
     footer a .icon {
@@ -1033,6 +1051,9 @@ footer {
     font-size: 11vw; }
   h2 {
     font-size: 5vw; }
+  header #see-this-on-github {
+    top: 30px;
+    right: 30px; }
   #logo img {
     max-width: 50vw; }
   .block.block-double > div > div > div {
@@ -1047,7 +1068,20 @@ footer {
     font-size: 12vw; }
   h2 {
     font-size: 5vw; }
+  header {
+    text-align: center; }
   #logo img {
     max-width: 60vw; } }
+
+@media (max-height: 520px) and (min-height: 481px) {
+  header {
+    padding-top: 30px; }
+  #see-this-on-github {
+    top: 20px;
+    right: 20px; } }
+
+@media (max-height: 480px) {
+  #see-this-on-github {
+    display: none; } }
 
 /*# sourceMappingURL=css.css.map */

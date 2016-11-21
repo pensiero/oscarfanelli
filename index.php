@@ -30,9 +30,8 @@
     <link href="/images/logo/hat-32.png" rel="icon" sizes="32x32">
     <link href="/images/logo/hat-64.png" rel="icon" sizes="64x64">
     <link href="https://plus.google.com/+OscarFanelli" rel="publisher">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href="/css/css.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/css/css.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="http://www.oscarfanelli.com/" rel="canonical">
 
     <!-- Google Tag Manager -->
@@ -84,26 +83,6 @@
         </div>
     </div>
 
-    <div class="block block-spaced cloud">
-        <div>
-            <span class="change" data-hidden="I'm very good at it.">Team Management</span>
-            <span class="change" data-hidden="PHP">Zend Framework 2</span>
-            <span class="change" data-hidden="MySQL">Doctrine 2</span>
-            <span class="change" data-hidden="Seriously?">Walk on water</span>
-            <span class="change" data-hidden="Javascript">jQuery</span>
-            <span class="change" data-hidden="Don't you know?">React</span>
-            <span class="change" data-hidden="Ruby">Rails</span>
-            <span class="change" data-hidden="HTML5">Twig</span>
-            <span class="change" data-hidden="CSS3">SCSS</span>
-            <span class="change" data-hidden="Got the message?">Bootstrap</span>
-            <span class="change" data-hidden="Not only development">Troubleshooting in critical situations</span>
-            <span class="change" data-hidden="Team managemnt">Asana</span>
-            <span class="change" data-hidden="My life">Todoist</span>
-            <span class="change" data-hidden="Also in local">Docker</span>
-            <span class="change" data-hidden="Versioning">Git</span>
-        </div>
-    </div>
-
     <div class="block block-double life">
         <div>
             <div>
@@ -137,7 +116,25 @@
         </div>
     </div>
 
-    <div class="block block-spaced block-spaced-half"></div>
+    <div class="block block-spaced cloud">
+        <div>
+            <span class="change" data-hidden="I'm very good at it.">Team Management</span>
+            <span class="change" data-hidden="PHP">Zend Framework 2</span>
+            <span class="change" data-hidden="MySQL">Doctrine 2</span>
+            <span class="change" data-hidden="Seriously?">Walk on water</span>
+            <span class="change" data-hidden="Javascript">jQuery</span>
+            <span class="change" data-hidden="Don't you know?">React</span>
+            <span class="change" data-hidden="Ruby">Rails</span>
+            <span class="change" data-hidden="HTML5">Twig</span>
+            <span class="change" data-hidden="CSS3">SCSS</span>
+            <span class="change" data-hidden="Got the message?">Bootstrap</span>
+            <span class="change" data-hidden="Not only development">Troubleshooting in critical situations</span>
+            <span class="change" data-hidden="Team managemnt">Asana</span>
+            <span class="change" data-hidden="My life">Todoist</span>
+            <span class="change" data-hidden="Also in local">Docker</span>
+            <span class="change" data-hidden="Versioning">Git</span>
+        </div>
+    </div>
 
     <footer class="block">
         <div>

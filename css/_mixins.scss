@@ -1,3 +1,10 @@
+@mixin avoid-select() {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
 @mixin transition($property, $duration, $function) {
   -webkit-transition: $property $duration $function;
   -moz-transition:    $property $duration $function;
