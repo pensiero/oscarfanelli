@@ -133,6 +133,8 @@
             <span class="change" data-hidden="My life">Todoist</span>
             <span class="change" data-hidden="Also in local">Docker</span>
             <span class="change" data-hidden="Versioning">Git</span>
+            <span class="change" data-hidden="Not only Google">Analytics</span>
+            <span class="change" data-hidden="Google Tag Manager">GTM</span>
         </div>
     </div>
 
