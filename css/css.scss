@@ -66,10 +66,12 @@ html, body {
   }
 }
 
-a:link, a:visited {
-  color: $textColor;
-  text-decoration: none;
-  &:hover, &:active, &:focus {
+a {
+  &:link, &:visited, &:focus {
+    color: $textColor;
+    text-decoration: none;
+  }
+  &:hover, &:active {
     font-weight: bold;
   }
 }
@@ -167,13 +169,13 @@ ul {
 
 .life {
   a {
-    &:link, &:visited {
+    &:link, &:visited, &:focus {
       text-decoration: underline;
       color: #FFF;
-      &:hover, &:active, &:focus {
-        text-decoration: none !important;
-        font-weight: normal;
-      }
+    }
+    &:hover, &:active {
+      text-decoration: none !important;
+      font-weight: normal;
     }
   }
 }
@@ -221,7 +223,7 @@ header {
     padding-right: 29px;
     height: 26px;
     @include border-radius(24px);
-    &:hover, &:active, &:focus {
+    &:hover, &:active {
       border-color: $textColor;
       font-weight: normal;
       svg {
@@ -250,6 +252,14 @@ footer.block {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+    #cv {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      font-style: italic;
+      font-size: 11px;
+    }
   }
   ul {
     text-align: center;
@@ -257,21 +267,21 @@ footer.block {
       font-size: 18px;
       font-family: brandon-grotesque-regular, sans-serif;
     }
-  }
-  a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px 0;
-    span {
-      margin: 0 3px;
-    }
-    .icon {
-      display: none;
-    }
-    &:hover {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 0;
+      span {
+        margin: 0 3px;
+      }
       .icon {
-        display: inline-block;
+        display: none;
+      }
+      &:hover {
+        .icon {
+          display: inline-block;
+        }
       }
     }
   }

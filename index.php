@@ -184,6 +184,7 @@
                     </a>
                 </li>
             </ul>
+            <a href="/docs/CV-Oscar_Fanelli.pdf" id="cv" target="_blank">Do you need a CV?</a>
         </div>
     </footer>
 

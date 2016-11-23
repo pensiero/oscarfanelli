@@ -838,11 +838,12 @@ html, body {
   .change.changed {
     color: #999999; }
 
-a:link, a:visited {
+a:link, a:visited, a:focus {
   color: #27282d;
   text-decoration: none; }
-  a:link:hover, a:link:active, a:link:focus, a:visited:hover, a:visited:active, a:visited:focus {
-    font-weight: bold; }
+
+a:hover, a:active {
+  font-weight: bold; }
 
 #logo img {
   width: 100%;
@@ -916,12 +917,13 @@ ul {
     .cloud > div span:nth-child(even) {
       font-weight: bold; }
 
-.life a:link, .life a:visited {
+.life a:link, .life a:visited, .life a:focus {
   text-decoration: underline;
   color: #FFF; }
-  .life a:link:hover, .life a:link:active, .life a:link:focus, .life a:visited:hover, .life a:visited:active, .life a:visited:focus {
-    text-decoration: none !important;
-    font-weight: normal; }
+
+.life a:hover, .life a:active {
+  text-decoration: none !important;
+  font-weight: normal; }
 
 h1 {
   margin: 0;
@@ -967,10 +969,10 @@ header {
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     border-radius: 24px; }
-    header #see-this-on-github:hover, header #see-this-on-github:active, header #see-this-on-github:focus {
+    header #see-this-on-github:hover, header #see-this-on-github:active {
       border-color: #27282d;
       font-weight: normal; }
-      header #see-this-on-github:hover svg, header #see-this-on-github:active svg, header #see-this-on-github:focus svg {
+      header #see-this-on-github:hover svg, header #see-this-on-github:active svg {
         -webkit-transform: rotate(30deg);
         -moz-transform: rotate(30deg);
         -ms-transform: rotate(30deg);
@@ -997,23 +999,30 @@ footer.block {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    position: relative; }
+    footer.block > div #cv {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      font-style: italic;
+      font-size: 11px; }
   footer.block ul {
     text-align: center; }
     footer.block ul li {
       font-size: 18px;
       font-family: brandon-grotesque-regular, sans-serif; }
-  footer.block a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px 0; }
-    footer.block a span {
-      margin: 0 3px; }
-    footer.block a .icon {
-      display: none; }
-    footer.block a:hover .icon {
-      display: inline-block; }
+    footer.block ul a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 0; }
+      footer.block ul a span {
+        margin: 0 3px; }
+      footer.block ul a .icon {
+        display: none; }
+      footer.block ul a:hover .icon {
+        display: inline-block; }
 
 @media (max-width: 767px) {
   h1 {
