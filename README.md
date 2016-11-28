@@ -1,19 +1,39 @@
 # Oscar Fanelli
 Personal portfolio, [oscarfanelli.com](http://www.oscarfanelli.com)
 
-### How to deploy
+## How to deploy
 
-Update to the latest release:
+### Update to the latest release
+
 ```
 git pull
 ```
 
-Run minifiers and compilers:
+### Install packages via package manager
+
+With yarn:
 ```
-./config/docker/warchers/run.sh
+yarn
 ```
 
-or if you have node installed locally:
+With npm:
+```
+npm install
+```
+
+### Run minifiers and compilers
+
+Direct run of the script:
+```
+./config/docker/watchers/run.sh
+```
+
+Via yarn:
+```
+yarn run compile
+```
+
+Via npm:
 ```
 npm run compile
 ```

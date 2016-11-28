@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Oscar's Portfolio",
   "author": "Oscar Fanelli <oscar.fanelli@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/pensiero/oscarfanelli"
@@ -16,10 +17,9 @@
     "uglifyjs": "2.*",
     "uglifycss": "0.*"
   },
-  "license": "MIT",
   "scripts": {
     "production": "docker-compose up -d",
     "develop": "docker-compose -f docker-compose_development.yml up -d",
-    "compile": "./config/docker/warchers/run.sh"
+    "compile": "./config/docker/watchers/run.sh"
   }
 }
