@@ -16,5 +16,10 @@
     "uglifyjs": "2.*",
     "uglifycss": "0.*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "production": "docker-compose up -d",
+    "develop": "docker-compose -f docker-compose_development.yml up -d",
+    "compile": "./config/docker/warchers/run.sh"
+  }
 }
