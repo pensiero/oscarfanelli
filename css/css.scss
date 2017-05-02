@@ -287,6 +287,30 @@ footer.block {
   }
 }
 
+#scrollbar {
+  h2 {
+    &:last-child {
+      display: none;
+    }
+  }
+  &.fixed {
+    position: fixed;
+  }
+  &.text-change {
+    h2 {
+      &:first-child {
+        display: none;
+      }
+      &:last-child {
+        display: block;
+      }
+    }
+  }
+  &.disappear {
+    display: none;
+  }
+}
+
 @include tablet {
 
   h1 {

@@ -1024,6 +1024,21 @@ footer.block {
       footer.block ul a:hover .icon {
         display: inline-block; }
 
+#scrollbar h2:last-child {
+  display: none; }
+
+#scrollbar.fixed {
+  position: fixed; }
+
+#scrollbar.text-change h2:first-child {
+  display: none; }
+
+#scrollbar.text-change h2:last-child {
+  display: block; }
+
+#scrollbar.disappear {
+  display: none; }
+
 @media (max-width: 767px) {
   h1 {
     font-size: 10vw; }

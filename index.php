@@ -60,9 +60,10 @@
                 <h1>Oscar Fanelli</h1>
             </div>
         </div>
-        <div class="block block-inverse">
+        <div class="block block-inverse" id="scrollbar">
             <div>
-                <h2>Creative and <span class="change" data-hidden="eccentric">arrogant</span> CTO</h2>
+                <h2>Creative and <span class="change" data-hidden="arrogant">eccentric</span> CTO</h2>
+                <h2 class="hidden">Well... i'm tired to follow the page!<br />Bye bye in <span class="pixel-counter">0</span> pixels!</h2>
             </div>
         </div>
         <a href="https://github.com/pensiero/oscarfanelli" target="_blank" id="see-this-on-github">
@@ -71,7 +72,7 @@
         </a>
     </header>
 
-    <div class="block block-spaced">
+    <div class="block block-spaced" id="block-intro">
         <div>
             <p>
                 In my spare time, I work.<br />
