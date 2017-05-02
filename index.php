@@ -86,12 +86,20 @@
     <div class="block block-double life">
         <div>
             <div>
-                <div>mar 2015 -> today</div>
+                <div>oct 2012 -> today</div>
+                <div>Full Stack Developer at <a href="http://www.tomshw.it" target="_blank">Tom's Hardware</a><br /><small>(partner Repubblica.it)</small></div>
+            </div>
+            <div>
+                <div>apr 2017</div>
+                <div>Speaker at <a href="http://www.commitsoftware.it/it/blog/docker" target="_blank">Commit University</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-rancher-produzione" target="_blank">Docker and Rancher</a></small></div>
+            </div>
+            <div>
+                <div>mar 2015 -> apr 2017</div>
                 <div>CTO and Frontend Developer at <a href="https://www.uala.it" target="_blank">Uala</a> <small>(Immobiliare.it group)</small></div>
             </div>
             <div>
-                <div>oct 2012 -> today</div>
-                <div>Full Stack Developer at <a href="http://www.tomshw.it" target="_blank">Tom's Hardware</a> <small>(partner Repubblica, l'Espresso)</small></div>
+                <div>mar 2017</div>
+                <div>Speaker at <a href="https://www.meetup.com/it-IT/MilanoPHP/events/237752718/" target="_blank">pugMI</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-lamp-locale" target="_blank">Docker</a></small></div>
             </div>
             <div>
                 <div>2013 -> 2015</div>
@@ -118,8 +126,9 @@
 
     <div class="block block-spaced cloud">
         <div>
-            <span class="change" data-hidden="I'm very good at it.">Team Management</span>
+            <span class="change" data-hidden="Love it">Team Management</span>
             <span class="change" data-hidden="PHP">Zend Framework 2</span>
+            <span class="change" data-hidden="PHP (again)">Symfony</span>
             <span class="change" data-hidden="MySQL">Doctrine 2</span>
             <span class="change" data-hidden="Seriously?">Walk on water</span>
             <span class="change" data-hidden="Javascript">jQuery</span>
@@ -127,6 +136,7 @@
             <span class="change" data-hidden="Ruby">Rails</span>
             <span class="change" data-hidden="HTML5">Twig</span>
             <span class="change" data-hidden="CSS3">SCSS</span>
+            <span class="change" data-hidden="Machine Learning">Python</span>
             <span class="change" data-hidden="Got the message?">Bootstrap</span>
             <span class="change" data-hidden="Not only development">Troubleshooting in critical situations</span>
             <span class="change" data-hidden="Team managemnt">Asana</span>
@@ -192,8 +202,8 @@
     <script src="/js/ie7-icons.min.js"></script>
     <![endif]-->
 
-    <script src="/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="/vendor/classie/classie.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/classie/classie.js"></script>
     <script src="/js/js.min.js"></script>
 </body>
 </html>
