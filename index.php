@@ -62,7 +62,7 @@
         </div>
         <div class="block block-inverse" id="scrollbar">
             <div>
-                <h2>Creative and <span class="change" data-hidden="arrogant">eccentric</span> CTO</h2>
+                <h2>Eccentric Engineering Manager</h2>
                 <h2 class="hidden">Well... i'm tired to follow the page!<br />Bye bye in <span class="pixel-counter">0</span> pixels!</h2>
             </div>
         </div>
@@ -88,7 +88,7 @@
         <div>
             <div>
                 <div>oct 2012 -> today</div>
-                <div>Full Stack Developer at <a href="http://www.tomshw.it" target="_blank">Tom's Hardware</a><br /><small>(partner Repubblica.it)</small></div>
+                <div>Engineering Manager at <a href="https://www.tomshw.it" target="_blank">Tom's Hardware</a><br /><small>(largest italian tech newspaper)</small></div>
             </div>
             <div>
                 <div>apr 2017</div>
@@ -128,9 +128,11 @@
     <div class="block block-spaced cloud">
         <div>
             <span class="change" data-hidden="Love it">Team Management</span>
-            <span class="change" data-hidden="PHP">Zend Framework 2</span>
+            <span class="change" data-hidden="PHP">Zend Framework</span>
+            <span class="change" data-hidden="Rancher">Docker</span>
             <span class="change" data-hidden="PHP (again)">Symfony</span>
-            <span class="change" data-hidden="MySQL">Doctrine 2</span>
+            <span class="change" data-hidden="MySQL">Doctrine ORM</span>
+            <span class="change" data-hidden="Mongo">Doctrine ODM</span>
             <span class="change" data-hidden="Seriously?">Walk on water</span>
             <span class="change" data-hidden="Javascript">jQuery</span>
             <span class="change" data-hidden="Don't you know?">React</span>
@@ -140,12 +142,11 @@
             <span class="change" data-hidden="Machine Learning">Python</span>
             <span class="change" data-hidden="Got the message?">Bootstrap</span>
             <span class="change" data-hidden="Not only development">Troubleshooting in critical situations</span>
-            <span class="change" data-hidden="Team managemnt">Asana</span>
+            <span class="change" data-hidden="Asana">JIRA</span>
             <span class="change" data-hidden="My life">Todoist</span>
-            <span class="change" data-hidden="Also in local">Docker</span>
             <span class="change" data-hidden="Versioning">Git</span>
             <span class="change" data-hidden="Not only Google">Analytics</span>
-            <span class="change" data-hidden="Google Tag Manager">GTM</span>
+            <span class="change" data-hidden="Segment.io">GTM</span>
         </div>
     </div>
 
