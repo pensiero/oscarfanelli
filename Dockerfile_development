@@ -11,5 +11,5 @@ RUN sed -i "s/display_errors = .*/display_errors = On/" $PHP_INI && \
 # VirtualHost
 COPY config/docker/apache-virtualhost.conf /etc/apache2/sites-available/000-default.conf
 
-# Remove pre-existent apache pid and start apache
-CMD rm -f $APACHE_PID_FILE && ./config/docker/start/development.sh
+# Start services
+CMD ["./config/docker/start/development.sh"]

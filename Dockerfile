@@ -30,5 +30,5 @@ COPY . $PROJECT_PATH
 # Generate assets
 RUN bash ./config/docker/watchers/run.sh
 
-# Remove pre-existent apache pid and start apache
-CMD rm -f $APACHE_PID_FILE && ./config/docker/start/production.sh
+# Start services
+CMD ["./config/docker/start/production.sh"]
