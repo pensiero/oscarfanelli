@@ -75,8 +75,10 @@
     <div class="block block-spaced" id="block-intro">
         <div>
             <p>
-                In my spare time, I work.<br />
-                And I love it.
+                10 years of experience in team management, client-side and server-side technologies.
+            </p>
+            <p>
+                I love my job.
             </p>
             <p>
                 Let's skip pleasantries and go straight to the point.
@@ -88,39 +90,96 @@
         <div>
             <div>
                 <div>oct 2012 -> today</div>
-                <div>Engineering Manager at <a href="https://www.tomshw.it" target="_blank">Tom's Hardware</a><br /><small>(largest italian tech newspaper)</small></div>
+                <div>
+                    Engineering Manager
+                    <br/><a href="https://www.tomshw.it" target="_blank">Tom's Hardware</a>
+                    <br /><small>(Milan, Italy)</small>
+                </div>
             </div>
             <div>
-                <div>apr 2017</div>
-                <div>Speaker at <a href="http://www.commitsoftware.it/it/blog/docker" target="_blank">Commit University</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-rancher-produzione" target="_blank">Docker and Rancher</a></small></div>
+                <div>may 2017 -> today</div>
+                <div>
+                    Software Architect
+                    <br /><a href="https://www.elearnsecurity.com" target="_blank">eLearnSecurity</a>
+                    <br /><small>(Santa Clara, USA)</small></div>
             </div>
             <div>
                 <div>mar 2015 -> apr 2017</div>
-                <div>CTO and Frontend Developer at <a href="https://www.uala.it" target="_blank">Uala</a> <small>(Immobiliare.it group)</small></div>
+                <div>
+                    CTO
+                    <br /><a href="https://www.uala.it" target="_blank">Uala</a>
+                    <br /><small>(Milan, Italy)</small>
+                </div>
             </div>
             <div>
-                <div>mar 2017</div>
-                <div>Speaker at <a href="https://www.meetup.com/it-IT/MilanoPHP/events/237752718/" target="_blank">pugMI</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-lamp-locale" target="_blank">Docker</a></small></div>
+                <div>jan 2007 -> sep 2015</div>
+                <div>
+                    CEO
+                    <br /><a href="https://www.gamempire.it" target="_blank">Gamempire</a>
+                </div>
             </div>
             <div>
-                <div>2013 -> 2015</div>
-                <div>Full Stack Developer at <a href="http://www.copernicum.it" target="_blank">Copernicum</a></div>
+                <div>jan 2013 -> may 2015</div>
+                <div>
+                    Web Developer
+                    <br /><a href="http://www.copernicum.it" target="_blank">Copernicum</a>
+                    <br /><small>(Florence, Italy)</small>
+                </div>
             </div>
             <div>
-                <div>2013 -> 2014</div>
-                <div>Full Stack Developer at <a href="http://www.truemetal.it" target="_blank">TrueMetal</a></div>
+                <div>oct 2012 -> mar 2013</div>
+                <div>
+                    Software Developer
+                    <br /><a href="http://www.unitn.it/" target="_blank">mmLAB, University of Trento</a>
+                    <br /><small>(Trento, Italy)</small>
+                </div>
             </div>
             <div>
                 <div>2009 -> 2013</div>
-                <div>Degree in <em>Ingegneria dell'Informazione e Organizzazione di Impresa</em> at <a href="http://www.unitn.it/" target="_blank">Trento</a></div>
+                <div>
+                    Bachelor’s Degree in
+                    <br /><em>Information Engineering and Business Organization</em>
+                    <br /><small>(Trento, Italy)</small>
+                </div>
             </div>
             <div>
-                <div>apr 2007 -> 2015</div>
-                <div>Director and Developer at <a href="http://www.gamempire.it" target="_blank">Gamempire</a></div>
+                <div>2006 -> 2007</div>
+                <div>
+                    Ambassador
+                    <br /><a href="http://www.ef.edu/" target="_blank">EF Education First</a>
+                    <br /><small>(California, USA)</small>
+                </div>
+            </div>
+            <div>
+                <div>2005 -> 2009</div>
+                <div>
+                    School Newspaper Director
+                    <br /><a href="http://www.unitn.it/" target="_blank">Liceo Scientifico</a>
+                    <br /><small>(Putignano, Italy)</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block block-double life life2">
+        <div>
+            <div>
+                <div>27 sep 2017</div>
+                <div>Speaker at <a href="https://www.meetup.com/it-IT/MilanoPHP/events/243355835" target="_blank">pugMI</a> talk<br /><small>about <a href="https://www.youtube.com/watch?v=OKucCf6dLDk" target="_blank">Dietro le quinte di Tom's Hardware</a></small></div>
+            </div>
+            <div>
+                <div>26 apr 2017</div>
+                <div>Speaker at <a href="http://www.commitsoftware.it/it/blog/docker" target="_blank">Commit University</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-rancher-produzione" target="_blank">Docker and Rancher</a></small></div>
+            </div>
+            <div>
+                <div>15 mar 2017</div>
+                <div>Speaker at <a href="https://www.meetup.com/it-IT/MilanoPHP/events/237752718" target="_blank">pugMI</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-lamp-locale" target="_blank">Local development with Docker</a></small></div>
             </div>
             <div>
                 <div>2007, 2008, 2009</div>
-                <div>Winner of <a href="http://www.mediashow.cc/" target="_blank">International Olympics of Multimedia</a> (3°, 2° and 4° position)</div>
+                <div>
+                    Winner of <a href="http://www.mediashow.cc/" target="_blank">International Olympics of Multimedia</a>
+                </div>
             </div>
         </div>
     </div>
@@ -128,6 +187,7 @@
     <div class="block block-spaced cloud">
         <div>
             <span class="change" data-hidden="Love it">Team Management</span>
+            <span class="change" data-hidden="Scrum">Agile</span>
             <span class="change" data-hidden="PHP">Zend Framework</span>
             <span class="change" data-hidden="Rancher">Docker</span>
             <span class="change" data-hidden="PHP (again)">Symfony</span>

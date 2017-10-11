@@ -871,7 +871,7 @@ ul {
   margin: 0 auto;
   width: 100%; }
   .block > div {
-    width: 700px;
+    width: 800px;
     padding: 30px;
     margin: 0 auto; }
     @media (max-width: 767px) {
@@ -901,12 +901,15 @@ ul {
         height: 140px; }
         .block.block-double > div > div > div {
           font-size: 26px;
-          width: 350px;
+          width: 400px;
           padding: 30px;
           height: 100%;
           color: #FFF; }
           .block.block-double > div > div > div:first-child {
-            text-align: right; }
+            text-align: right;
+            font-size: 17px;
+            text-transform: uppercase;
+            padding-top: 37px; }
 
 .cloud > div {
   word-break: break-all;
@@ -924,6 +927,9 @@ ul {
 .life a:hover, .life a:active {
   text-decoration: none !important;
   font-weight: normal; }
+
+.life2 {
+  margin-top: 50px; }
 
 h1 {
   margin: 0;
@@ -993,7 +999,7 @@ footer.block {
   height: 100vh;
   padding: 30px; }
   footer.block > div {
-    width: 640px;
+    width: 740px;
     background-color: #f9f9f9;
     height: 100%;
     display: flex;

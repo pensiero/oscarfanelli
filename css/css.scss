@@ -6,7 +6,7 @@
 @import "effects/colorful";
 @import "effects/links";
 
-$boxWidth: 700px;
+$boxWidth: 800px;
 $boxPadding: 30px;
 
 html, body {
@@ -140,12 +140,15 @@ ul {
         height: 140px;
         > div {
           font-size: 26px;
-          width: 350px;
+          width: 400px;
           padding: $boxPadding;
           height: 100%;
           color: #FFF;
           &:first-child {
             text-align: right;
+            font-size: 17px;
+            text-transform: uppercase;
+            padding-top: 37px;
           }
         }
       }
@@ -178,6 +181,9 @@ ul {
       font-weight: normal;
     }
   }
+}
+.life2 {
+  margin-top: 50px;
 }
 
 h1 {
