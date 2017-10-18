@@ -13,15 +13,15 @@
     <meta name="theme-color" content="#baecd8">
     <meta name="msapplication-TileColor" content="#baecd8">
     <meta name="device" content="desktop">
-    <meta property="og:image" content="http://www.oscarfanelli.com/images/share.jpg">
-    <meta itemprop="image" content="http://www.oscarfanelli.com/images/share.jpg">
-    <meta name="twitter:image" content="http://www.oscarfanelli.com/images/share.jpg">
-    <meta name="description" content="Informations, contacts and projects of Oscar Fanelli, creative and arrogant developer.">
-    <meta property="og:description" content="Informations, contacts and projects of Oscar Fanelli, eccentric and arrogant developer.">
-    <meta itemprop="description" content="Informations, contacts and projects of Oscar Fanelli, creative and arrogant developer.">
-    <meta name="twitter:description" content="Informations, contacts and projects of Oscar Fanelli, eccentric and arrogant developer.">
-    <meta property="og:url" content="http://www.oscarfanelli.com/">
-    <meta property="twitter:url" content="http://www.oscarfanelli.com/">
+    <meta property="og:image" content="https://www.oscarfanelli.com/images/share.jpg">
+    <meta itemprop="image" content="https://www.oscarfanelli.com/images/share.jpg">
+    <meta name="twitter:image" content="https://www.oscarfanelli.com/images/share.jpg">
+    <meta name="description" content="Contacts and projects of Oscar Fanelli, eccentric Engineering Manager.">
+    <meta property="og:description" content="Contacts and projects of Oscar Fanelli, eccentric Engineering Manager.">
+    <meta itemprop="description" content="Contacts and projects of Oscar Fanelli, eccentric Engineering Manager.">
+    <meta name="twitter:description" content="Contacts and projects of Oscar Fanelli, eccentric Engineering Manager.">
+    <meta property="og:url" content="https://www.oscarfanelli.com/">
+    <meta property="twitter:url" content="https://www.oscarfanelli.com/">
     <meta property="og:title" content="Oscar Fanelli">
     <meta itemprop="name" content="Oscar Fanelli">
     <meta name="twitter:title" content="Oscar Fanelli">
@@ -32,7 +32,7 @@
     <link href="https://plus.google.com/+OscarFanelli" rel="publisher">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="/css/css.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="http://www.oscarfanelli.com/" rel="canonical">
+    <link href="https://www.oscarfanelli.com/" rel="canonical">
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
