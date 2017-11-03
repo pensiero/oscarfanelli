@@ -115,44 +115,13 @@ ul {
     }
   }
   &.block-spaced {
-    height: 200vh;
+    height: 150vh;
     display: flex;
     align-items: center;
   }
   &.block-inverse {
     background-color: $textColor;
     color: #FFF;
-  }
-  &.block-double {
-    background-color: $textColor;
-    padding: 50vh 0;
-    > div {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      padding: 0;
-      > div {
-        width: 100%;
-        display: flex;
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-        height: 140px;
-        > div {
-          font-size: 26px;
-          width: 400px;
-          padding: $boxPadding;
-          height: 100%;
-          color: #FFF;
-          &:first-child {
-            text-align: right;
-            font-size: 17px;
-            text-transform: uppercase;
-            padding-top: 37px;
-          }
-        }
-      }
-    }
   }
 }
 
@@ -168,22 +137,6 @@ ul {
       }
     }
   }
-}
-
-.life {
-  a {
-    &:link, &:visited, &:focus {
-      text-decoration: underline;
-      color: #FFF;
-    }
-    &:hover, &:active {
-      text-decoration: none !important;
-      font-weight: normal;
-    }
-  }
-}
-.life2 {
-  margin-top: 50px;
 }
 
 h1 {
@@ -250,6 +203,19 @@ header {
 footer.block {
   height: 100vh;
   padding: $boxPadding;
+  position: relative;
+  > h3 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 60px;
+    text-align: center;
+    left: 0;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 ($boxPadding * 2);
+    font-size: 1em;
+  }
   > div {
     width: $boxWidth - ($boxPadding * 2);
     background-color: $lightColor;

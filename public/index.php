@@ -25,6 +25,7 @@
     <meta property="og:title" content="Oscar Fanelli">
     <meta itemprop="name" content="Oscar Fanelli">
     <meta name="twitter:title" content="Oscar Fanelli">
+    <meta name="twitter:site" content="@nesis">
     <link href="/images/logo/hat-32.png" rel="shortcut icon">
     <link href="/images/logo/hat-16.png" rel="icon" sizes="16x16">
     <link href="/images/logo/hat-32.png" rel="icon" sizes="32x32">
@@ -75,114 +76,17 @@
     <div class="block block-spaced" id="block-intro">
         <div>
             <p>
-                10 years of experience in team management, client-side and server-side technologies.
+                <?= (date('Y') - 2012) ?> years experience in team management.
+            </p>
+            <p>
+                <?= (date('Y') - 2007) ?> years experience in client-side and server-side technologies.
             </p>
             <p>
                 I love my job.
             </p>
-            <p>
-                Let's skip pleasantries and go straight to the point.
-            </p>
         </div>
     </div>
 
-    <div class="block block-double life">
-        <div>
-            <div>
-                <div>oct 2012 -> today</div>
-                <div>
-                    Engineering Manager
-                    <br/><a href="https://www.tomshw.it" target="_blank">Tom's Hardware</a>
-                    <br /><small>(Milan, Italy)</small>
-                </div>
-            </div>
-            <div>
-                <div>may 2017 -> today</div>
-                <div>
-                    Software Architect
-                    <br /><a href="https://www.elearnsecurity.com" target="_blank">eLearnSecurity</a>
-                    <br /><small>(Santa Clara, USA)</small></div>
-            </div>
-            <div>
-                <div>mar 2015 -> apr 2017</div>
-                <div>
-                    CTO
-                    <br /><a href="https://www.uala.it" target="_blank">Uala</a>
-                    <br /><small>(Milan, Italy)</small>
-                </div>
-            </div>
-            <div>
-                <div>jan 2007 -> sep 2015</div>
-                <div>
-                    CEO
-                    <br /><a href="https://www.gamempire.it" target="_blank">Gamempire</a>
-                </div>
-            </div>
-            <div>
-                <div>jan 2013 -> may 2015</div>
-                <div>
-                    Web Developer
-                    <br /><a href="http://www.copernicum.it" target="_blank">Copernicum</a>
-                    <br /><small>(Florence, Italy)</small>
-                </div>
-            </div>
-            <div>
-                <div>oct 2012 -> mar 2013</div>
-                <div>
-                    Software Developer
-                    <br /><a href="http://www.unitn.it/" target="_blank">mmLAB, University of Trento</a>
-                    <br /><small>(Trento, Italy)</small>
-                </div>
-            </div>
-            <div>
-                <div>2009 -> 2013</div>
-                <div>
-                    Bachelor’s Degree in
-                    <br /><em>Information Engineering and Business Organization</em>
-                    <br /><small>(Trento, Italy)</small>
-                </div>
-            </div>
-            <div>
-                <div>2006 -> 2007</div>
-                <div>
-                    Ambassador
-                    <br /><a href="http://www.ef.edu/" target="_blank">EF Education First</a>
-                    <br /><small>(California, USA)</small>
-                </div>
-            </div>
-            <div>
-                <div>2005 -> 2009</div>
-                <div>
-                    School Newspaper Director
-                    <br /><a href="http://www.unitn.it/" target="_blank">Liceo Scientifico</a>
-                    <br /><small>(Putignano, Italy)</small>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="block block-double life life2">
-        <div>
-            <div>
-                <div>27 sep 2017</div>
-                <div>Speaker at <a href="https://www.meetup.com/it-IT/MilanoPHP/events/243355835" target="_blank">pugMI</a> talk<br /><small>about <a href="https://www.youtube.com/watch?v=OKucCf6dLDk" target="_blank">Dietro le quinte di Tom's Hardware</a></small></div>
-            </div>
-            <div>
-                <div>26 apr 2017</div>
-                <div>Speaker at <a href="http://www.commitsoftware.it/it/blog/docker" target="_blank">Commit University</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-rancher-produzione" target="_blank">Docker and Rancher</a></small></div>
-            </div>
-            <div>
-                <div>15 mar 2017</div>
-                <div>Speaker at <a href="https://www.meetup.com/it-IT/MilanoPHP/events/237752718" target="_blank">pugMI</a> talk<br /><small>about <a href="http://slides.com/pensiero/docker-lamp-locale" target="_blank">Local development with Docker</a></small></div>
-            </div>
-            <div>
-                <div>2007, 2008, 2009</div>
-                <div>
-                    Winner of <a href="http://www.mediashow.cc/" target="_blank">International Olympics of Multimedia</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="block block-spaced cloud">
         <div>
@@ -190,7 +94,7 @@
             <span class="change" data-hidden="Scrum">Agile</span>
             <span class="change" data-hidden="PHP">Zend Framework</span>
             <span class="change" data-hidden="Rancher">Docker</span>
-            <span class="change" data-hidden="PHP (again)">Symfony</span>
+            <span class="change" data-hidden="PHP (again!)">Symfony</span>
             <span class="change" data-hidden="MySQL">Doctrine ORM</span>
             <span class="change" data-hidden="Mongo">Doctrine ODM</span>
             <span class="change" data-hidden="Seriously?">Walk on water</span>
@@ -199,18 +103,20 @@
             <span class="change" data-hidden="Ruby">Rails</span>
             <span class="change" data-hidden="HTML5">Twig</span>
             <span class="change" data-hidden="CSS3">SCSS</span>
-            <span class="change" data-hidden="Machine Learning">Python</span>
+            <span class="change" data-hidden="Deep Learning">Python</span>
             <span class="change" data-hidden="Got the message?">Bootstrap</span>
-            <span class="change" data-hidden="Not only development">Troubleshooting in critical situations</span>
+            <span class="change" data-hidden="Not only development">Troubleshooting</span>
             <span class="change" data-hidden="Asana">JIRA</span>
-            <span class="change" data-hidden="My life">Todoist</span>
-            <span class="change" data-hidden="Versioning">Git</span>
+            <span class="change" data-hidden="My life">Things App</span>
+            <span class="change" data-hidden="Svn">Git</span>
+            <span class="change" data-hidden="BitBucket">GitHub</span>
             <span class="change" data-hidden="Not only Google">Analytics</span>
             <span class="change" data-hidden="Segment.io">GTM</span>
         </div>
     </div>
 
     <footer class="block">
+        <h3>Don't judge a book by its cover. Get in touch with me.</h3>
         <div>
             <ul>
                 <li>
@@ -232,21 +138,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="tel:00393388696167" target="_blank">
+                    <a href="tel:00393388696167" target="_blank" class="change change-one-way" data-hidden="+39 338.86.96.167">
                         <span>Phone</span>
                         <span class="s2 icon icon-phone"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="skype:gamempire" target="_blank">
-                        <span>Skype</span>
-                        <span class="s2 icon icon-skype"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/oscar.fanelli" target="_blank">
-                        <span>Facebook</span>
-                        <span class="s2 icon icon-facebook"></span>
                     </a>
                 </li>
                 <li>

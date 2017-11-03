@@ -57,17 +57,32 @@ var Scrollbar = {
 
 $(document).ready(function() {
 
+    // toggle text
     $('.change').click(function(e) {
+
         e.preventDefault();
+
+        // for one way change buttons, don't toggle back text if already changed
+        if ($(this).hasClass('change-one-way') && $(this).data('changed')) {
+            window.location.href = $(this).attr('href');
+            return;
+        }
+
+        // toggle class
         $(this).toggleClass('changed');
+
+        // save previous text
         if (typeof $(this).data('original') === "undefined") {
             $(this).data('original', $(this).text());
         }
+
+        // toggle text
         var newText = $(this).data('changed') ? 'original' : 'hidden';
         $(this).text($(this).data(newText));
         $(this).data('changed', !$(this).data('changed'));
     });
 
+    // troll
     $('.itself').click(function(e) {
         e.preventDefault();
         $(this).parent().remove();
