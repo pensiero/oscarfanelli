@@ -1,5 +1,5 @@
 # Oscar Fanelli
-Personal portfolio, [oscarfanelli.com](http://www.oscarfanelli.com)
+Personal portfolio, [oscarfanelli.com](https://www.oscarfanelli.com)
 
 ## How to deploy
 
