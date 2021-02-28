@@ -64,7 +64,7 @@
         <div class="block block-inverse" id="scrollbar">
             <div>
                 <h2>Head of Engineering, Berlin</h2>
-                <h2 class="hidden">Well... i'm tired to follow the page!<br />Bye bye in <span class="pixel-counter">0</span> pixels!</h2>
+                <h2 class="hidden">Well... i'm tired of following this page!<br />👋 Bye bye in <span class="pixel-counter">0</span> pixels!</h2>
             </div>
         </div>
         <a href="https://github.com/pensiero/oscarfanelli" target="_blank" id="see-this-on-github">
