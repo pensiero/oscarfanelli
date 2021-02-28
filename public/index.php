@@ -63,7 +63,7 @@
         </div>
         <div class="block block-inverse" id="scrollbar">
             <div>
-                <h2>Eccentric Engineering Manager</h2>
+                <h2>Head of Engineering, Berlin</h2>
                 <h2 class="hidden">Well... i'm tired to follow the page!<br />Bye bye in <span class="pixel-counter">0</span> pixels!</h2>
             </div>
         </div>
@@ -76,10 +76,10 @@
     <div class="block block-spaced" id="block-intro">
         <div>
             <p>
-                <?= (date('Y') - 2012) ?> years experience in team management.
+                <?= (date('Y') - 2013) ?> years experience in people management.
             </p>
             <p>
-                <?= (date('Y') - 2007) ?> years experience in client-side and server-side technologies.
+                <?= (date('Y') - 2008) ?> years experience in software development.
             </p>
             <p>
                 I love my job.
@@ -90,33 +90,37 @@
 
     <div class="block block-spaced cloud">
         <div>
-            <span class="change" data-hidden="Love it">Team Management</span>
+            <span class="change" data-hidden="Carrer Development">People Management</span>
+            <span class="change" data-hidden="Love It">International Growth</span>
+            <span class="change" data-hidden="Tuckman's Model">Teams Development</span>
+            <span class="change" data-hidden="OKRs">KPIs</span>
             <span class="change" data-hidden="Scrum">Agile</span>
             <span class="change" data-hidden="PHP">Zend Framework</span>
-            <span class="change" data-hidden="Rancher">Docker</span>
+            <span class="change" data-hidden="Kubernetes">Docker</span>
+            <span class="change" data-hidden="Rancher">Rancher</span>
+            <span class="change" data-hidden="GCP">AWS</span>
             <span class="change" data-hidden="PHP (again!)">Symfony</span>
-            <span class="change" data-hidden="MySQL">Doctrine ORM</span>
-            <span class="change" data-hidden="Mongo">Doctrine ODM</span>
+            <span class="change" data-hidden="MySQL">Doctrine</span>
+            <span class="change" data-hidden="NoSQL">MongoDB</span>
             <span class="change" data-hidden="Seriously?">Walk on water</span>
-            <span class="change" data-hidden="Javascript">jQuery</span>
+            <span class="change" data-hidden="MooTools">jQuery</span>
             <span class="change" data-hidden="Don't you know?">React</span>
             <span class="change" data-hidden="Ruby">Rails</span>
             <span class="change" data-hidden="HTML5">Twig</span>
             <span class="change" data-hidden="CSS3">SCSS</span>
             <span class="change" data-hidden="Deep Learning">Python</span>
-            <span class="change" data-hidden="Got the message?">Bootstrap</span>
-            <span class="change" data-hidden="Not only development">Troubleshooting</span>
             <span class="change" data-hidden="Asana">JIRA</span>
-            <span class="change" data-hidden="My life">Things App</span>
-            <span class="change" data-hidden="Svn">Git</span>
+            <span class="change" data-hidden="The Mac app, my life">Things</span>
+            <span class="change" data-hidden="SVN">Git</span>
             <span class="change" data-hidden="BitBucket">GitHub</span>
             <span class="change" data-hidden="Not only Google">Analytics</span>
             <span class="change" data-hidden="Segment.io">GTM</span>
+            <span class="change" data-hidden="Is the cat dead or alive?">Quantum Computing</span>
         </div>
     </div>
 
     <footer class="block">
-        <h3>Don't judge a book by its cover. Get in touch with me.</h3>
+        <h3><i>Don't judge a book by its cover. Get in touch with me.</i></h3>
         <div>
             <ul>
                 <li>
@@ -135,12 +139,6 @@
                     <a href="mailto:oscar.fanelli@gmail.com" target="_blank">
                         <span>Email</span>
                         <span class="s2 icon icon-email"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="tel:00393388696167" target="_blank" class="change change-one-way" data-hidden="+39 338.86.96.167">
-                        <span>Phone</span>
-                        <span class="s2 icon icon-phone"></span>
                     </a>
                 </li>
                 <li>

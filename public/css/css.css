@@ -459,7 +459,7 @@ th {
   color: #286aab;
   -webkit-transition: color 0.7s;
   transition: color 0.7s;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -852,7 +852,7 @@ a:hover, a:active {
 
 p {
   margin-top: 0;
-  font-size: 40px; }
+  font-size: 39px; }
   p:last-child {
     margin-bottom: 0; }
   @media (max-width: 767px) {
@@ -982,12 +982,6 @@ footer.block {
     justify-content: center;
     flex-direction: column;
     position: relative; }
-    footer.block > div #cv {
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-      font-style: italic;
-      font-size: 11px; }
   footer.block ul {
     text-align: center; }
     footer.block ul li {
